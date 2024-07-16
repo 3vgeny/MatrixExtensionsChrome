@@ -1,0 +1,13 @@
+{
+  "name": "Matrix Extensions",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "servece_worker": "background.js"
+  },
+  "action": {
+    "defaulte_title": "Click to show alert",
+    "default_popup": "popup.html"
+  }
+}
